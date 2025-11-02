@@ -1,0 +1,11 @@
+[project]
+name = "mcp-keyword-search"
+version = "0.1.0"
+description = "A simple MCP server that searches for a keyword in a file using FastAPI."
+authors = [{name = "Sakshi Tiwari", email = "tiwarishakshi318@gmail.com"}]
+dependencies = ["fastapi", "uvicorn"]
+requires-python = ">=3.8"
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
